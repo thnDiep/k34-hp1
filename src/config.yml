@@ -3,8 +3,8 @@ model:
     mode: "all"
     variant_type: "hedge" # hedge, tech, fund, discriminative
     alpha: 0.5 # 0.1, 0.3, 0.5, 0.7, 0.9, 1.0
-    dropout_vmd_in: 0.3
-    dropout_mel_in: 0.3
+    dropout_vmd_in: 0.4 #change here
+    dropout_mel_in: 0.4 #change here
     n_epochs: 10
     batch_size: 32
 
@@ -32,7 +32,7 @@ model:
     init_stock_with_word: 0
     mel_h_size: 100
     msin_h_size: 100
-    h_size: 150
+    h_size: 150 
     g_size: 50
 
     shuffle: 1
