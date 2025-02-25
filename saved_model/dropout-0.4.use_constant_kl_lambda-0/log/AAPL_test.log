@@ -1,0 +1,16 @@
+2025-02-25 23:01:38,606 INFO INIT: #stock: 1, #vocab+1: 29867
+2025-02-25 23:01:38,611 INFO Start graph assembling...
+2025-02-25 23:01:45,546 INFO Model: all_days-5.msgs-20-words-30_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.4-cell-gru-tmp, session restored!
+2025-02-25 23:01:51,007 INFO 	Eval, eval loss: 1.0562419891357422, acc: 0.611111, mcc: None
+2025-02-25 23:02:12,418 INFO INIT: #stock: 1, #vocab+1: 29867
+2025-02-25 23:02:12,422 INFO Start graph assembling...
+2025-02-25 23:02:19,393 INFO Model: all_days-5.msgs-20-words-30_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.4-cell-gru-tmp, session restored!
+2025-02-25 23:02:23,553 INFO 	Eval, eval loss: 1.051602840423584, acc: 0.611111, mcc: None
+2025-02-25 23:07:45,347 INFO INIT: #stock: 1, #vocab+1: 29867
+2025-02-25 23:07:45,352 INFO Start graph assembling...
+2025-02-25 23:07:52,037 INFO Model: all_days-5.msgs-20-words-30_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.4-cell-gru-tmp, session restored!
+2025-02-25 23:07:56,110 INFO 	Eval, eval loss: 1.0652562379837036, acc: 0.583333, mcc: -0.134840
+2025-02-25 23:08:23,573 INFO INIT: #stock: 1, #vocab+1: 29867
+2025-02-25 23:08:23,580 INFO Start graph assembling...
+2025-02-25 23:08:30,053 INFO Model: all_days-5.msgs-20-words-30_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.4-cell-gru-tmp, session restored!
+2025-02-25 23:08:34,099 INFO 	Eval, eval loss: 1.058156967163086, acc: 0.611111, mcc: None

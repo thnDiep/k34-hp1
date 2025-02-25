@@ -1,0 +1,118 @@
+2025-02-16 23:19:22,900 INFO INIT: #stock: 88, #vocab+1: 29867
+2025-02-16 23:19:22,908 INFO Start graph assembling...
+2025-02-16 23:20:48,506 INFO ASSEMBLE: word table #replacement: 19485
+2025-02-16 23:20:51,541 INFO Word table init: done!
+2025-02-16 23:20:51,542 INFO Model: all_days-5.msgs-20-words-30_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.4-cell-gru-tmp, start a new session!
+2025-02-16 23:20:51,542 INFO Epoch: 1/10 start
+2025-02-16 23:28:54,734 INFO 	iter: 20, batch loss: 7.692111015319824, batch acc: 0.656250
+2025-02-16 23:36:11,971 INFO 	iter: 40, batch loss: 6.507596492767334, batch acc: 0.406250
+2025-02-16 23:43:05,916 INFO 	iter: 60, batch loss: 3.8734211921691895, batch acc: 0.687500
+2025-02-16 23:50:23,877 INFO 	iter: 80, batch loss: 2.880669355392456, batch acc: 0.593750
+2025-02-16 23:58:00,348 INFO 	iter: 100, batch loss: 2.588228940963745, batch acc: 0.812500
+2025-02-17 00:05:29,907 INFO 	iter: 120, batch loss: 2.689953565597534, batch acc: 0.625000
+2025-02-17 00:13:07,062 INFO 	iter: 140, batch loss: 2.39732027053833, batch acc: 0.718750
+2025-02-17 00:18:48,359 INFO Epoch: loss: 3.990202, acc: 0.605040
+2025-02-17 00:18:48,359 INFO Epoch: 2/10 start
+2025-02-17 00:22:11,148 INFO 	iter: 160, batch loss: 2.3685460090637207, batch acc: 0.500000
+2025-02-17 00:32:17,970 INFO 	iter: 180, batch loss: 2.1147356033325195, batch acc: 0.687500
+2025-02-17 00:41:16,400 INFO 	iter: 200, batch loss: 2.0806591510772705, batch acc: 0.656250
+2025-02-17 00:50:09,092 INFO 	iter: 220, batch loss: 2.14790678024292, batch acc: 0.500000
+2025-02-17 00:58:57,693 INFO 	iter: 240, batch loss: 2.062591314315796, batch acc: 0.437500
+2025-02-17 01:07:39,473 INFO 	iter: 260, batch loss: 1.766353964805603, batch acc: 0.593750
+2025-02-17 01:16:16,394 INFO 	iter: 280, batch loss: 1.5704288482666016, batch acc: 0.531250
+2025-02-17 01:24:48,793 INFO 	iter: 300, batch loss: 1.475244402885437, batch acc: 0.656250
+2025-02-17 01:29:12,730 INFO Epoch: loss: 1.900178, acc: 0.567339
+2025-02-17 01:29:12,731 INFO Epoch: 3/10 start
+2025-02-17 01:35:26,612 INFO 	iter: 320, batch loss: 1.572662591934204, batch acc: 0.375000
+2025-02-17 01:45:09,630 INFO 	iter: 340, batch loss: 1.3766505718231201, batch acc: 0.593750
+2025-02-17 01:54:28,805 INFO 	iter: 360, batch loss: 1.3421932458877563, batch acc: 0.656250
+2025-02-17 02:03:27,217 INFO 	iter: 380, batch loss: 1.3898284435272217, batch acc: 0.531250
+2025-02-17 02:12:19,810 INFO 	iter: 400, batch loss: 1.3020645380020142, batch acc: 0.500000
+2025-02-17 02:20:58,509 INFO 	iter: 420, batch loss: 1.3083393573760986, batch acc: 0.437500
+2025-02-17 02:29:43,442 INFO 	iter: 440, batch loss: 1.3211522102355957, batch acc: 0.406250
+2025-02-17 02:38:16,768 INFO 	iter: 460, batch loss: 1.2639098167419434, batch acc: 0.437500
+2025-02-17 02:40:35,454 INFO Epoch: loss: 1.344515, acc: 0.532258
+2025-02-17 02:40:35,454 INFO Epoch: 4/10 start
+2025-02-17 02:49:25,281 INFO 	iter: 480, batch loss: 1.2367260456085205, batch acc: 0.531250
+2025-02-17 02:59:07,016 INFO 	iter: 500, batch loss: 1.1584299802780151, batch acc: 0.593750
+2025-02-17 03:08:19,301 INFO 	iter: 520, batch loss: 1.1798434257507324, batch acc: 0.531250
+2025-02-17 03:17:13,929 INFO 	iter: 540, batch loss: 1.2632031440734863, batch acc: 0.531250
+2025-02-17 03:26:49,543 INFO 	iter: 560, batch loss: 1.175554871559143, batch acc: 0.562500
+2025-02-17 03:35:57,622 INFO 	iter: 580, batch loss: 1.1616218090057373, batch acc: 0.531250
+2025-02-17 03:44:47,788 INFO 	iter: 600, batch loss: 1.0797109603881836, batch acc: 0.656250
+2025-02-17 03:53:08,976 INFO 	iter: 620, batch loss: 1.1797106266021729, batch acc: 0.500000
+2025-02-17 03:53:20,323 INFO Epoch: loss: 1.191830, acc: 0.533065
+2025-02-17 03:53:20,323 INFO Epoch: 5/10 start
+2025-02-17 04:04:43,439 INFO 	iter: 640, batch loss: 1.1652181148529053, batch acc: 0.500000
+2025-02-17 04:13:27,201 INFO 	iter: 660, batch loss: 1.1240348815917969, batch acc: 0.468750
+2025-02-17 04:21:47,722 INFO 	iter: 680, batch loss: 1.2060085535049438, batch acc: 0.500000
+2025-02-17 04:30:06,980 INFO 	iter: 700, batch loss: 1.1459264755249023, batch acc: 0.437500
+2025-02-17 04:38:36,368 INFO 	iter: 720, batch loss: 1.2164254188537598, batch acc: 0.375000
+2025-02-17 04:47:15,801 INFO 	iter: 740, batch loss: 1.1378021240234375, batch acc: 0.562500
+2025-02-17 04:55:28,538 INFO 	iter: 760, batch loss: 1.1179563999176025, batch acc: 0.562500
+2025-02-17 05:01:59,479 INFO Epoch: loss: 1.125458, acc: 0.548387
+2025-02-17 05:01:59,479 INFO Epoch: 6/10 start
+2025-02-17 05:05:23,733 INFO 	iter: 780, batch loss: 1.107192873954773, batch acc: 0.468750
+2025-02-17 05:15:49,778 INFO 	iter: 800, batch loss: 1.1282830238342285, batch acc: 0.468750
+2025-02-17 05:26:33,963 INFO 	iter: 820, batch loss: 1.0371489524841309, batch acc: 0.718750
+2025-02-17 05:36:46,112 INFO 	iter: 840, batch loss: 1.1221097707748413, batch acc: 0.562500
+2025-02-17 05:46:20,343 INFO 	iter: 860, batch loss: 1.1411755084991455, batch acc: 0.500000
+2025-02-17 05:55:09,485 INFO 	iter: 880, batch loss: 1.099839687347412, batch acc: 0.406250
+2025-02-17 06:03:41,951 INFO 	iter: 900, batch loss: 1.0919241905212402, batch acc: 0.437500
+2025-02-17 06:12:06,624 INFO 	iter: 920, batch loss: 1.1000614166259766, batch acc: 0.593750
+2025-02-17 06:16:25,032 INFO Epoch: loss: 1.101208, acc: 0.532258
+2025-02-17 06:16:25,033 INFO Epoch: 7/10 start
+2025-02-17 06:23:19,969 INFO 	iter: 940, batch loss: 1.0864516496658325, batch acc: 0.531250
+2025-02-17 06:33:12,297 INFO 	iter: 960, batch loss: 1.0834555625915527, batch acc: 0.531250
+2025-02-17 06:42:13,497 INFO 	iter: 980, batch loss: 1.1168564558029175, batch acc: 0.406250
+2025-02-17 06:51:00,343 INFO 	iter: 1000, batch loss: 1.0442173480987549, batch acc: 0.562500
+2025-02-17 06:59:45,628 INFO 	iter: 1020, batch loss: 1.132695198059082, batch acc: 0.500000
+2025-02-17 07:08:42,869 INFO 	iter: 1040, batch loss: 1.0527361631393433, batch acc: 0.656250
+2025-02-17 07:17:21,229 INFO 	iter: 1060, batch loss: 1.1201395988464355, batch acc: 0.468750
+2025-02-17 07:25:54,317 INFO 	iter: 1080, batch loss: 1.075867772102356, batch acc: 0.468750
+2025-02-17 07:28:22,366 INFO Epoch: loss: 1.089898, acc: 0.507863
+2025-02-17 07:28:22,366 INFO Epoch: 8/10 start
+2025-02-17 07:37:12,287 INFO 	iter: 1100, batch loss: 1.1161298751831055, batch acc: 0.375000
+2025-02-17 07:46:40,039 INFO 	iter: 1120, batch loss: 1.082013487815857, batch acc: 0.593750
+2025-02-17 07:55:49,264 INFO 	iter: 1140, batch loss: 1.0670363903045654, batch acc: 0.531250
+2025-02-17 08:04:49,599 INFO 	iter: 1160, batch loss: 1.0488684177398682, batch acc: 0.500000
+2025-02-17 08:14:03,416 INFO 	iter: 1180, batch loss: 1.0869468450546265, batch acc: 0.500000
+2025-02-17 08:22:52,501 INFO 	iter: 1200, batch loss: 1.0612096786499023, batch acc: 0.500000
+2025-02-17 08:31:47,828 INFO 	iter: 1220, batch loss: 1.0654443502426147, batch acc: 0.593750
+2025-02-17 08:40:35,957 INFO 	iter: 1240, batch loss: 1.028363823890686, batch acc: 0.687500
+2025-02-17 08:40:50,890 INFO Epoch: loss: 1.070522, acc: 0.535484
+2025-02-17 08:40:50,890 INFO Epoch: 9/10 start
+2025-02-17 08:52:21,579 INFO 	iter: 1260, batch loss: 1.0802206993103027, batch acc: 0.531250
+2025-02-17 09:01:52,532 INFO 	iter: 1280, batch loss: 1.0058767795562744, batch acc: 0.656250
+2025-02-17 09:11:11,009 INFO 	iter: 1300, batch loss: 1.0072002410888672, batch acc: 0.687500
+2025-02-17 09:20:14,450 INFO 	iter: 1320, batch loss: 1.065630555152893, batch acc: 0.531250
+2025-02-17 09:29:22,510 INFO 	iter: 1340, batch loss: 1.05902898311615, batch acc: 0.656250
+2025-02-17 09:38:21,970 INFO 	iter: 1360, batch loss: 1.0794167518615723, batch acc: 0.531250
+2025-02-17 09:47:49,323 INFO 	iter: 1380, batch loss: 1.0727767944335938, batch acc: 0.500000
+2025-02-17 09:54:56,842 INFO Epoch: loss: 1.069261, acc: 0.520766
+2025-02-17 09:54:56,858 INFO Epoch: 10/10 start
+2025-02-17 09:58:33,011 INFO 	iter: 1400, batch loss: 1.0612468719482422, batch acc: 0.531250
+2025-02-17 10:09:53,818 INFO 	iter: 1420, batch loss: 1.1085892915725708, batch acc: 0.343750
+2025-02-17 10:20:08,378 INFO 	iter: 1440, batch loss: 1.0365301370620728, batch acc: 0.625000
+2025-02-17 10:30:08,482 INFO 	iter: 1460, batch loss: 1.0583781003952026, batch acc: 0.500000
+2025-02-17 10:40:08,778 INFO 	iter: 1480, batch loss: 1.0660871267318726, batch acc: 0.500000
+2025-02-17 10:50:07,285 INFO 	iter: 1500, batch loss: 1.0398321151733398, batch acc: 0.531250
+2025-02-17 11:00:03,583 INFO 	iter: 1520, batch loss: 1.076751947402954, batch acc: 0.562500
+2025-02-17 11:09:58,214 INFO 	iter: 1540, batch loss: 1.040274739265442, batch acc: 0.562500
+2025-02-17 11:15:01,625 INFO Epoch: loss: 1.062132, acc: 0.523992
+2025-02-17 11:15:03,111 INFO Model: all_days-5.msgs-20-words-30_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.4-cell-gru-tmp, session restored!
+2025-02-17 11:19:28,328 INFO 	Eval, eval loss: 1.050934076309204, acc: 0.574405, mcc: 0.009499
+
+
+
+2025-02-25 20:20:06,374 INFO INIT: #stock: 88, #vocab+1: 29867
+2025-02-25 20:20:06,381 INFO Start graph assembling...
+2025-02-25 20:20:14,914 INFO Model: all_days-5.msgs-20-words-30_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.4-cell-gru-tmp, session restored!
+2025-02-25 20:21:53,200 INFO 	Eval, eval loss: 1.0375018119812012, acc: 0.567460, mcc: -0.045040
+
+
+
+2025-02-25 20:22:52,484 INFO INIT: #stock: 88, #vocab+1: 29867
+2025-02-25 20:22:52,488 INFO Start graph assembling...
+2025-02-25 20:23:00,367 INFO Model: all_days-5.msgs-20-words-30_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.4-cell-gru-tmp, session restored!
+2025-02-25 20:24:34,152 INFO 	Eval, eval loss: 1.0373790264129639, acc: 0.576389, mcc: 0.037729
