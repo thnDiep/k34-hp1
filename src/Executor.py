@@ -111,10 +111,14 @@ class Executor:
             }
 
             gen_batch_y, gen_batch_y_, gen_batch_loss = sess.run(
-                [self.model.y_T, self.model.y_T_, self.model.loss], feed_dict=feed_dict
+                [
+                    self.model.y_T,
+                    self.model.y_T_,
+                    self.model.loss,
+                ],
+                feed_dict=feed_dict,
             )
-
-            # gather
+  
             y_list.append(gen_batch_y)
             y_list_.append(gen_batch_y_)
             gen_loss_list.append(gen_batch_loss)  # list of floats
@@ -204,6 +208,7 @@ class Executor:
                         self.model.optimize,
                         self.model.global_step,
                     ]
+
                     train_batch_y, train_batch_y_, train_batch_loss, _, n_iter = (
                         sess.run(ops, feed_dict)
                     )

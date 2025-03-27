@@ -197,6 +197,12 @@ class Model:
                     word_table, self.word_ph, name="word_embed"
                 )
 
+                # In ra word embedding của sample đầu tiên
+                tf.add_to_collection("print_tensors", tf.shape(word_table))
+                tf.add_to_collection("print_tensors", tf.shape(self.word_ph))
+                tf.add_to_collection("print_tensors", tf.shape(self.word_embed))
+                # tf.add_to_collection("print_tensors", self.word_embed[0])
+
     def _create_msg_embed_layer_in(self):
         """
         acquire the inputs for MEL.
@@ -304,6 +310,10 @@ class Model:
                 self.msg_embed = tf.nn.dropout(
                     msg_embed, keep_prob=1 - self.dropout_mel, name="msg_embed"
                 )
+
+                # In ra message embedding của sample đầu tiên
+                tf.add_to_collection("print_tensors", tf.shape(self.msg_embed))
+                # tf.add_to_collection("print_tensors", self.msg_embed[0])
 
     def _create_corpus_embed(self):
         """

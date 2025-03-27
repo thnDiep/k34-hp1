@@ -45,6 +45,10 @@ def create_confusion_matrix(y, y_, is_distribution=True):
 
 
 def eval_mcc(tp, fp, tn, fn):
+    print("TP: ", tp)
+    print("FP: ", fp)
+    print("TN: ", tn)
+    print("FN: ", fn)
     core_de = (tp + fp) * (tp + fn) * (tn + fp) * (tn + fn)
     return (tp * tn - fp * fn) / math.sqrt(core_de) if core_de else None
 
